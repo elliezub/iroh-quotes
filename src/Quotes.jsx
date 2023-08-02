@@ -16,43 +16,25 @@ export default function QuoteGenerator() {
 
   return (
     <div>
-      <blockquote>
-        <p>{quote.quote}</p>
+        <div className="flex flex-col justify-center items-center mt-32 font-merri">
+      <blockquote className="bg-slate-600/50 mx-6 max-w-2xl p-6 rounded-xl shadow-lg">
+        <p className="md:text-lg lg:text-xl mb-3">{quote.quote}</p>
         <p>- {quote.author}</p>
       </blockquote>
 
-      <button onClick={chooseQuote} className="bg-blue-500 p-6 m-4">Click for Iroh wisdom</button>
-     
-<div>
+      <button onClick={chooseQuote} className="bg-blue-500 py-3 px-4 m-8 rounded-3xl shadow-lg bg-orange-800 ease-in-out duration-200 hover:cursor-pointer hover:bg-orange-900">Click for Iroh wisdom</button>
+      </div>
+
+<div className="fixed bottom-0 w-full">
       <iframe
         width="100%"
         height="150"
         scrolling="no"
         frameBorder="no"
+        
         allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/832707832&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
       ></iframe>
-      <div style={{fontSize: "10px", color: "#cccccc", overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", fontFamily: "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif", fontWeight: "100"}}>
-        <a
-          href="https://soundcloud.com/jacnez305"
-          title="Uncle Iroh"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{color: "#cccccc", textDecoration: "none"}}
-        >
-          Uncle Iroh
-        </a>{" "}
-        ·{" "}
-        <a
-          href="https://soundcloud.com/jacnez305/little-soldier-boy-uncle-iroh"
-          title="Little Soldier Boy (Leaves From The Vine) - Uncle Iroh (Mako)"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{color: "#cccccc", textDecoration: "none"}}
-        >
-          Little Soldier Boy (Leaves From The Vine) - Uncle Iroh (Mako)
-        </a>
-      </div>
 </div>
     </div>
   );
