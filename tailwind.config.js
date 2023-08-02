@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        merri: ['"Merriweather"']
-      }
+        merri: ['"Merriweather"'],
+      },
     },
   },
   plugins: [],
