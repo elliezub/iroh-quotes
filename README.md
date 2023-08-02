@@ -1,8 +1,49 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Uncle Iroh Quote Generator
 
-Currently, two official plugins are available:
+This project is a React application that displays random quotes from Uncle Iroh of the Avatar: The Last Airbender series.
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![App Screenshot](https://i.ibb.co/G2qLRzv/Screen-Shot-2023-08-02-at-4-24-19-PM.png)
+
+
+## Technologies used
+
+- React
+- Vite
+- Tailwind CSS
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd iroh-quotes
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Contributing
+
+Contributions are always welcome!
+
+Happy Coding! 😄
+
