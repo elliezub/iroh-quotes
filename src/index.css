@@ -1,11 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-image: url("https://preview.redd.it/st7pm59vmvm21.jpg?width=960&crop=smart&auto=webp&s=b7ed89ba19d6a3e3fa4b54cd77a3dc537561fe60");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
